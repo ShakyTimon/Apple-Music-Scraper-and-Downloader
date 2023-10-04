@@ -2,3 +2,4 @@ browser_cookie3
 requests
 yt-dlp
 selenium
+geckodriver(Linux only?)
