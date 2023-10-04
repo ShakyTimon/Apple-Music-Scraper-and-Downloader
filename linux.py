@@ -19,7 +19,7 @@ save_location = "Downloaded/"
 filename_template = "%(title)s.%(ext)s"
 
 
-driver = webdriver.Firefox(service=Service('/usr/bin/geckodriver')) # This change together with line 6 should fix "NoSuchDriverException on Linux"
+driver = webdriver.Firefox(service=Service('/usr/bin/geckodriver')) # This change together with line 7 should fix "NoSuchDriverException on Linux"
 base_url = urlparse(apple_url).netloc
 cookies = browser_cookie3.firefox(domain_name=f'.{base_url}')
 cookies_dict = dict_from_cookiejar(cookies)
