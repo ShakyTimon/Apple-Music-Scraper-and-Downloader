@@ -1,1 +1,4 @@
-
+browser_cookie3
+requests
+yt-dlp
+selenium
