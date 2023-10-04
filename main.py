@@ -10,7 +10,7 @@ import threading
 
 
 apple_url = "https://music.apple.com"
-playlist_url = "https://music.apple.com/library/playlist/p.7PkeL0xCVoX36JB"
+playlist_url = "PLAYLIST LINK HERE"
 timeout_wait_time = 15
 
 
